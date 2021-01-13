@@ -1,7 +1,7 @@
 {
-	"name": "jamstack-web-starter",
-	"version": "1.6.1",
-	"description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
+	"name": "me",
+	"version": "0.1.0",
+	"description": "davidhu.me",
 	"scripts": {
 		"clean": "del dist",
 		"dev:postcss": "postcss src/_assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose",
@@ -13,7 +13,7 @@
 		"start": "run-p dev:* --print-label",
 		"build": "run-s clean build:* --print-label"
 	},
-	"author": "Chris Collins",
+	"author": "David Hu",
 	"license": "ISC",
 	"devDependencies": {
 		"@11ty/eleventy": "^0.11.0",
